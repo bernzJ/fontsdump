@@ -1,0 +1,85 @@
+.swal2-styled.swal2-confirm {
+    background-color: var(--cariera-primary) !important;
+}
+
+.hidden-reason {
+    text-align: center !important;
+    margin: 0;
+    width: 100%;
+}
+
+.back-to-job {
+    padding: 15px 100px;
+}
+
+.back-to-job::before {
+    content: "\f30a";
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 1em;
+    transition: .2s ease-in-out;
+}
+
+.view-contract a {
+    background: var(--cariera-primary);
+    padding: 10px 15px;
+    color: #fff !important;
+}
+
+.view-contract a:hover {
+    color: #fff !important;
+}
+
+.advanced-search-btn {
+    display: none;
+}
+
+.job_types {
+    display: none;
+}
+
+.submitted-btn-set {
+    text-align: center;
+}
+
+.submitted-btn-set a {
+    min-width: 13%;
+}
+
+.button-bg-green {
+    background: green;
+}
+
+.button-bg-red {
+    background: red;
+}
+
+.cariera-job-applications .application-content .buttons {
+    display: block !important;
+    position: relative !important;
+    float: right;
+    right: 0;
+    top: 0 !important;
+    transform: translate(0);
+}
+
+.application-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.application-content .info {
+    margin-bottom: 1.5em;
+}
+
+.cariera-listing-submission {
+    display: flex;
+    justify-content: end;
+}
+
+.post-badge {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}

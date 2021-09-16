@@ -1,0 +1,1045 @@
+/*
+	Theme Name: Cariera Child
+    Theme URI: http://themeforest.net/user/gnodesign/portfolio/
+    Template: cariera
+    Description: Cariera Child Theme. 
+    Author: Gnodesign
+	Author URI: http://themeforest.net/user/gnodesign/
+	License: ThemeForest
+    License URI: http://themeforest.net/licenses
+    Text Domain: cariera
+    Domain Path: /lang/
+*/
+
+/*
+@TODO: clean this up
+
+Source: wordpress theme additional CSS
+*/
+
+copyright ptb40 {
+    background-image: linear-gradient( 145deg, #F1F4FB 0%, #E2EBFF 100%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.page-header {
+    margin-top: 100px!important;
+}
+
+/* @TODO: this can be fixed instead of hidden */
+
+.related-jobs {
+    display: none;
+}
+
+#job-map {
+    display: none;
+}
+
+span.btn.btn-main.btn-effect.upload-btn {
+    display: none;
+}
+
+.advanced-search-btn {
+    display: none;
+}
+
+ul.job_types {
+    display: none;
+}
+
+.tag-group {
+    display: none;
+}
+
+.woocommerce-message {
+    display: none;
+}
+
+section.page-header-bg {
+    background-size: 60%!important;
+    background-position: 23%!important;
+    padding: 120px 0;
+    BACKGROUND-ATTACHMENT: fixed !important;
+}
+
+.section.page-header-bg:after {
+    background: rgb(5 13 255 / 57%);
+}
+
+.listing-categories.grid-layout4 .category-item img.category-icon {
+    width: max-content;
+}
+
+footer.main-footer .copyright h6 {
+    /*! line-height:40px; */
+    font-size: 12px;
+    /*! font-weight:600; */
+    margin: 0;
+}
+
+.footer-widgets {
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #0e0a22c9 0%, #303AF7 100%);
+}
+
+.copyright {
+    /*! background-color: transparent; */
+    background-image: linear-gradient(45deg, #e6e6e6 0%, #FEFEFF 100%);
+}
+
+.ptb40 {
+    padding: 0px 0;
+    background-color: #0D0231;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    color: #d2c9c9 !important;
+}
+
+/* dashboard.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/dashboard.css?ver=5.7 */
+
+/* dashboard.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/dashboard.css?ver=5.7 */
+
+.card-statistics.style-1 {
+    /* background: -webkit-gradient(linear,right top,left top,color-stop(25%,hsla(0,0%,100%,0)),to(hsla(0,0%,100%,.2))); */
+    /* background: linear-gradient(270deg,hsla(0,0%,100%,0) 25%,hsla(0,0%,100%,.2)); */
+    /* background-color: #7a38f3; */
+    background-color: #f3f0f8;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+}
+
+.card-statistics {
+    /* width: 100%; */
+    /* color: #fff; */
+    /* padding: 0; */
+    padding: 5px;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    box-shadow: -2px -2px 4px 0px #82828261, 50px 50px 50px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.card-statistics.style-3 {
+    /* background: linear-gradient(270deg,hsla(0,0%,100%,0) 25%,hsla(0,0%,100%,.2)); */
+    /* background-color: #d04747; */
+    background: linear-gradient(270deg, hsla(0, 0%, 100%, 0) 25%, hsla(241.9, 74.5%, 49.2%, 0.12));
+    background-color: #0034ff38;
+    background-color: var(--bg-color);
+    border-radius: 40px;
+    display: grid;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.card-statistics.style-2 {
+    /* background: linear-gradient(270deg,hsla(0,0%,100%,0) 25%,hsla(0,0%,100%,.2)); */
+    /* background-color: #872cdc; */
+    background-color: #1d10b0;
+}
+
+.card-statistics.style-4 {
+    /* background-color: #2c6cdc; */
+    background-color: #00b0246b;
+    background-image: linear-gradient( 109.6deg, rgba(255, 207, 84, 1) 11.2%, rgba(255, 158, 27, 1) 91.1%);
+}
+
+.statistics-icon {
+    /* opacity: .05; */
+    opacity: .15;
+}
+
+/* Feuille de style intégrée #34 | https://goxchain.stage.surf/dashboard/ */
+
+.col-md-6 {
+    /* color: #d2c9c9 !important; */
+}
+
+/* bootstrap.min.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/vendors/bootstrap/bootstrap.min.css?ver=5.7 */
+
+.row {}
+
+*, ::after, ::before {}
+
+/* style.css | https://goxchain.stage.surf/wp-content/themes/cariera/style.css?ver=5.7 */
+
+* {
+    /* outline: none; */
+}
+
+/* Élément | https://goxchain.stage.surf/dashboard/ */
+
+#mCSB_2 {
+    /* max-height: 410.1px; */
+}
+
+/* Feuille de style intégrée #35 | https://goxchain.stage.surf/dashboard/ */
+
+body {
+    /* letter-spacing: 0px; */
+    /* line-height: 1.65; */
+}
+
+/* Élément | https://goxchain.stage.surf/post-job/?customize_changeset_uuid=ff099b36-eaf3-4c08-876c-bed3db1a74dc&customize_theme=cariera-child&customize_messenger_channel=preview-4&customize_autosaved=on */
+
+li.job-package:nth-child(2) {
+    box-shadow: -2px -2px 4px 0px #82828261, 50px 50px 50px 0px rgb(0 0 0 / 25%);
+    display: flex;
+    border-radius: 40px;
+}
+
+/* frontend.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/frontend.css?ver=5.7 */
+
+.job_listing_packages ul.job_packages li.job-package.active, .job_listing_packages ul.job_packages li.job-package:hover, .job_listing_packages ul.job_packages li.user-job-package.active, .job_listing_packages ul.job_packages li.user-job-package:hover, .job_listing_packages ul.resume_packages li.resume-package.active, .job_listing_packages ul.resume_packages li.resume-package:hover, .job_listing_packages ul.resume_packages li.user-resume-package.active, .job_listing_packages ul.resume_packages li.user-resume-package:hover {
+    display: flex;
+    border-radius: 40px;
+}
+
+/* dashboard.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/dashboard.css?ver=5.7 */
+
+.dashboard-nav ul::before {
+    /* content: attr(data-submenu-title); */
+}
+
+ul.job_listings .job_listing.job-list.single_job_listing_1 .job-content-wrapper .job-company .company-page .company-info .company-photo {
+    padding: 0px !important;
+    background: none !important;
+    border: 0px !important;
+    border-radius: 0px!important;
+}
+
+.company-page .company-info .company-photo {
+    border: 0px !important;
+    border-radius: 0px!important;
+    background: none !important;
+    padding: 0px!important;
+}
+
+ul.job_listings .job_listing.job-list.single_job_listing_1 .job-content-wrapper .job-company, ul.job_listings .job_listing.job-list.single_job_listing_2 .job-content-wrapper .job-company {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    margin-right: 20px;
+    /* padding: 10px; */
+    background: #f6f6f600;
+    border: 0px solid #e3e3e3;
+    border-radius: 0px;
+}
+
+.single-job-listing .company-info .job-company {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    background: none;
+    border: 0px solid #e3e3e3;
+    border-radius: 2px;
+}
+
+section.page-header-bg {
+    background-size: cover!important;
+}
+
+#dashboard .dashboard-nav-inner {
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient( 180deg, #303AF7 0%, #443088 100%) !important;
+}
+
+mm-panels {
+    background-color: transparent;
+    background-image: linear-gradient( 180deg, #303AF7 0%, #443088 100%);
+}
+
+/* Élément | https://goxchain.stage.surf/ */
+
+.signin-wrapper>div:nth-child(2)>div:nth-child(3)>div:nth-child(4)>a:nth-child(5) {
+    /* border-radius: 0px !important; */
+    border-radius: 4px !important;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15) !important;
+    font-weight: 600 !important;
+    border-radius: 5px !important;
+}
+
+/* bootstrap.min-preview.css | https://goxchain.stage.surf/wp-content/plugins/miniorange-login-openid/includes/css/bootstrap.min-preview.css?ver=5.7.1 */
+
+.mo_btn {
+    /* border: 1px solid transparent; */
+    /* border-radius: 4px; */
+    /* border-radius: 4px !important ,inherit; */
+    /* border-radius: 4px !important ,; */
+    padding: 6px 12px;
+    border-radius: 4px !important;
+}
+
+/* mo_openid_login_icons.css | https://goxchain.stage.surf/wp-content/plugins/miniorange-login-openid/includes/css/mo_openid_login_icons.css?version=7.3.0&ver=5.7.1 */
+
+.mo-openid-app-icons>a {
+    margin-left: 10px !important;
+    width: 158px !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    margin-bottom: 5px !important;
+    border-radius: 4px !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15) !important;
+    font-weight: 600 !important;
+}
+
+/* Feuille de style intégrée #41 | https://goxchain.stage.surf/dashboard/ */
+
+.card-statistics.style-1 {
+    /* background-color: #f3f0f8; */
+    background-color: #6724d7;
+}
+
+.dashboard-nav {
+    /* background-color: #1e1f21; */
+    background-image: linear-gradient( 180deg, #303AF7 0%, #443088 100%)!important;
+}
+
+/* frontend.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/frontend.css?ver=1.5.2.1 */
+
+.header-account-widget .logout-footer a {
+    /* background: #b23b3b; */
+    background: #4d4949;
+}
+
+.header-account-widget .title-bar, .header-notifications-widget .title-bar {
+    /* background: var(--cariera-primary); */
+    background: #3039f2;
+}
+
+/* frontend.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/frontend.css?ver=1.5.2.1 */
+
+.header-account-widget .logout-footer a {
+    /* background: #b23b3b; */
+    background: #4d4949;
+}
+
+.header-account-widget .title-bar, .header-notifications-widget .title-bar {
+    /* background: var(--cariera-primary); */
+    background: #3039f2;
+}
+
+.mmenu-trigger {
+    /* background: #1e1f21; */
+    background: #303af7;
+}
+
+/** Start Block Kit CSS: 135-3-c665d4805631b9a8bf464e65129b2f58 **/
+
+.envato-block__preview {
+    overflow: visible;
+}
+
+/** End Block Kit CSS: 135-3-c665d4805631b9a8bf464e65129b2f58 **/
+
+.widget-title {
+    font-weight: 600 !important;
+}
+
+footer.main-footer .copyright h6 {
+    color: #303af7;
+}
+
+footer.main-footer .copyright h6 {
+    color: #303af7;
+}
+
+/** Start Block Kit CSS: 69-3-4f8cfb8a1a68ec007f2be7a02bdeadd9 **/
+
+.envato-kit-66-menu .e--pointer-framed .elementor-item:before {
+    border-radius: 1px;
+}
+
+.envato-kit-66-subscription-form .elementor-form-fields-wrapper {
+    position: relative;
+}
+
+.envato-kit-66-subscription-form .elementor-form-fields-wrapper .elementor-field-type-submit {
+    position: static;
+}
+
+.envato-kit-66-subscription-form .elementor-form-fields-wrapper .elementor-field-type-submit button {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webmit-transform: translate(0, -50%);
+}
+
+.envato-kit-66-testi-slider .elementor-testimonial__footer {
+    margin-top: -60px !important;
+    z-index: 99;
+    position: relative;
+}
+
+.envato-kit-66-featured-slider .elementor-slides .slick-prev {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff !important;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    left: -25px !important;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+}
+
+.envato-kit-66-featured-slider .elementor-slides .slick-prev:before {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.envato-kit-66-featured-slider .elementor-slides .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff !important;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    right: -25px !important;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.32);
+}
+
+.envato-kit-66-featured-slider .elementor-slides .slick-next:before {
+    display: block;
+    margin-top: -5px;
+    margin-right: -5px;
+    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.envato-kit-66-orangetext {
+    color: #f4511e;
+}
+
+.envato-kit-66-countdown .elementor-countdown-label {
+    display: inline-block !important;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 9px 20px;
+}
+
+/** End Block Kit CSS: 69-3-4f8cfb8a1a68ec007f2be7a02bdeadd9 **/
+
+.single-resume section.resume-header {
+    height: 400px;
+    padding: 0;
+    background-size: cover!important;
+    background-position: 50%!important;
+    background-color: transparent;
+    background-image: linear-gradient( 45deg, #0e0a22c9 0%, #303AF7 100%);
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #0575E6 0%, #021B79 51%, #0575E6 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-main i {
+    display: none;
+}
+
+.job-manager-form .submit-job-box .title {
+    width: 100%;
+    background: #1e1f21;
+    color: #fff;
+    margin: 0;
+    padding: 15px 25px;
+    border-bottom: 1px solid #e3e3e3;
+    border-radius: 4px 4px 0 0;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #443088 0%, #303AF7 100%);
+}
+
+/** Start Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
+
+.envato-block__preview {
+    overflow: visible;
+}
+
+/** End Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
+
+/** Start Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+.envato-block__preview {
+    overflow: visible;
+}
+
+/* Envato Kit 141 Custom Styles - Applied to the element under Advanced */
+
+.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper {
+    text-align: center;
+}
+
+.envato-kit-141-top-0 h1, .envato-kit-141-top-0 h2, .envato-kit-141-top-0 h3, .envato-kit-141-top-0 h4, .envato-kit-141-top-0 h5, .envato-kit-141-top-0 h6, .envato-kit-141-top-0 p {
+    margin-top: 0;
+}
+
+.envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.envato-kit-141-bottom-0 p {
+    margin-bottom: 0;
+}
+
+.envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+    margin-bottom: .5rem;
+}
+
+.envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container {
+    padding-bottom: 52px;
+}
+
+.envato-kit-141-display-inline {
+    display: inline-block;
+}
+
+.envato-kit-141 .elementor-slick-slider ul.slick-dots {
+    bottom: -40px;
+}
+
+/** End Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+#company-manager-company-dashboard table.company-manager-companies thead, #job-manager-job-dashboard table.job-manager-jobs thead, #resume-manager-candidate-dashboard table.resume-manager-resumes thead, table.job-manager-alerts thead, table.job-manager-bookmarks thead, table.job-manager-job-reports thead, table.job-manager-past-applications tr:first-child, table.job-manager-resume-alerts thead, table.resume-manager-resume-reports thead {
+    /* background: #1e1f21!important; */
+    color: #fff;
+    background-color: transparent!important;
+    background-image: linear-gradient( 45deg, #443088 0%, #303AF7 100%)!important;
+}
+
+/** Start Block Kit CSS: 105-3-0fb64e69c49a8e10692d28840c54ef95 **/
+
+.envato-kit-102-phone-overlay {
+    position: absolute !important;
+    display: block !important;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    z-index: 1;
+}
+
+/** End Block Kit CSS: 105-3-0fb64e69c49a8e10692d28840c54ef95 **/
+
+/* Élément | https://goxchain.stage.surf/dashboard/ */
+
+/* Élément | https://goxchain.stage.surf/dashboard/?customize_changeset_uuid=03969f00-5765-4b4b-9c62-11ef0aecf894&customize_theme=cariera-child&customize_messenger_channel=preview-2&customize_autosaved=on */
+
+.dashboard-profile-box {
+    display: yes;
+}
+
+.fieldset-candidate_name {
+    width: 48% !important;
+}
+
+.fieldset-candidate_photo {
+    width: 48% !important;
+}
+
+.fieldset-vehicle_category {
+    width: 100% !important;
+}
+
+.fieldset-has_trailer {
+    width: 100% !important;
+}
+
+.fieldset-vehicle_model {
+    width: 100% !important;
+}
+
+.dynamic-fieldset-vehicle_category {
+    width: 100% !important;
+}
+
+.fieldset-company_name {
+    width: 100%!important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_email {
+    width: 100% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-condidat_number {
+    width: 100%!important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-condidat_neq {
+    width: 100%!important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_title {
+    width: 100%!important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.resume-manager-add-row {
+    width: 100%!important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_featured_image {
+    width: 48% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-resume_category {
+    width: 100% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-resume_skills {
+    width: 48% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_education_level {
+    width: 48% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_languages {
+    width: 48% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_rate {
+    width: 100% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_featured_image {
+    width: 48% !important;
+}
+
+/* Élément | https://goxchain.stage.surf/submit-vehicle/ */
+
+.fieldset-candidate_photo {
+    width: 48% !important;
+}
+
+.fieldset-resume_nb_employe {
+    width: 48% !important;
+}
+
+.fieldset-_cargo_insurance {
+    width: 100% !important;
+}
+
+.fieldset-liability_insurance {
+    width: 100% !important;
+}
+
+.dashboard-profile-box {
+    display: none;
+}
+
+.dashboard-nav-inner {
+    max-height: none !important;
+}
+
+.user-name {
+    display: none;
+}
+
+/* Feuille de style intégrée #20 | https://goxchain.stage.surf/my-account/orders/ */
+
+#dashboard .dashboard-nav-inner {
+    /* background-image: linear-gradient( 180deg , #303AF7 0%, #443088 100%) !important; */
+}
+
+/* frontend.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/frontend.css?ver=1.5.3 */
+
+footer.main-footer .copyright {
+    padding: 0px 0;
+}
+
+/* Élément | https://goxchain.stage.surf/ */
+
+.footer-widget-area {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+/* frontend.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/frontend.css?ver=1.5.3 */
+
+footer.main-footer .footer-widget-area .footer-widget:first-child {
+    /* margin-top: 0; */
+}
+
+footer.main-footer .footer-widget-area .footer-widget {
+    margin-top: 0px;
+}
+
+#dashboard .copyrights {}
+
+/* bootstrap.min.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/vendors/bootstrap/bootstrap.min.css?ver=5.7.2 */
+
+@media (min-width: 576px) {
+    .col-sm-4 {
+        /* max-width: 33.333333%; */
+        max-width: 23.333333%;
+    }
+}
+
+/* Élément | https://goxchain.stage.surf/ */
+
+.footer-widget-area {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+/* frontend.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/dist/css/frontend.css?ver=1.5.3 */
+
+footer.main-footer .footer-widget-area .footer-widget:first-child {
+    /* margin-top: 0; */
+}
+
+footer.main-footer .footer-widget-area .footer-widget {
+    /* margin-top: 40px; */
+}
+
+/* bootstrap.min.css | https://goxchain.stage.surf/wp-content/themes/cariera/assets/vendors/bootstrap/bootstrap.min.css?ver=5.7.2 */
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        /* max-width: 1140px; */
+        max-width: 2200px;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-4 {
+        /* max-width: 33.333333%; */
+        max-width: 23.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        /* max-width: 960px; */
+        max-width: 1960px;
+    }
+}
+
+/* Feuille de style intégrée #28 | https://goxchain.stage.surf/ */
+
+* {
+    outline: none;
+}
+
+/* Élément | https://goxchain.stage.surf/ */
+
+.footer-widget-area>div:nth-child(1)>div:nth-child(1) {
+    max-width: 19000px;
+}
+
+autohub-single-listing .single-listing-section .extra-listing-info {
+    background: #fff;
+    padding: 30px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 768px) {
+    .footer-widget-area {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .extra-add-listing {
+        display: none;
+    }
+}
+
+/*
+@TODO: clean this up
+
+Source: Custom CSS plugin
+*/
+
+.ctcustom-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.car-fetures ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.car-fetures ol li {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.car-fetures ol li i {
+    color: #303af7;
+    margin-right: 12px;
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+}
+
+.car-details-content h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.car-details {
+    margin-bottom: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.car-engine-details.car-details h3 {
+    margin-top: 20px;
+}
+
+/* Sidebar */
+
+.car-sidebar-widget .car-price {
+    background: linear-gradient(90deg, var(--cariera-primary) -20%, var(--cariera-secondary) 120%);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.car-sidebar-widget .widget-title {
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    color: #1f1f1f;
+    font-weight: 400 !important;
+    padding-left: 15px;
+}
+
+.car-sidebar-widget {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.car-sidebar-widget.no-padding {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.car-desciption h3 {
+    margin-top: 0;
+}
+
+.car-sidebar-widget ul, .car-engine-details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.car-sidebar-widget ul li, .car-engine-details ul li {
+    border-bottom: 1px dashed #c7c7c7;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.car-sidebar-widget ul li::after, .car-engine-details ul li::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.car-sidebar-widget ul li:last-child, .car-engine-details ul li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+.car-sidebar-widget ul li span, .car-engine-details ul li span {
+    float: right;
+    font-weight: 400;
+    text-align: right;
+}
+
+.car-widget-inner {
+    padding: 0 25px;
+}
+
+.car-widget-inner ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.car-widget-inner ol li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.car-widget-inner ol li a {
+    color: #111;
+}
+
+.car-widget-inner ol li a i {
+    border-radius: 50%;
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.car-details-content {
+    padding-right: 30px;
+}
+
+.car-engine-details.car-details {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px 30px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.allHiddenFilds {
+    display: none;
+}
+
+form.wpcf7-form textarea {
+    max-width: 100%;
+    resize: none;
+    height: 120px;
+}
+
+@media all and (max-width:1024px) {
+    .ctIconCol .elementor-widget-image {
+        width: 100%;
+        text-align: center;
+        float: inherit;
+        margin-left: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+    }
+    .ctIconCol .elementor-widget-counter {
+        width: 100%;
+        float: none;
+        margin: auto;
+        text-align: center;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .elementor-3668 .elementor-element.elementor-element-4ba88b86 img {
+        width: auto !important;
+    }
+}
+
+@media all and (max-width:768px) {
+    fieldset.fieldset-candidate_name {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_organisation {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_location {
+        width: 100% !important;
+    }
+    fieldset.fieldset-condidate_phones {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_email {
+        width: 100% !important;
+    }
+    fieldset.fieldset-condidat_number {
+        width: 100% !important;
+    }
+    fieldset.fieldset-condidat_neq {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_title {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_languages {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_rate {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_featured_image {
+        width: 100% !important;
+    }
+    fieldset.fieldset-candidate_photo {
+        width: 100% !important;
+    }
+    .payment_type.resume-filter.col-md-6, .certification_type.resume-filter.col-md-6, .search_by_business_type.resume-filter.col-md-6 {
+        margin-bottom: 15px;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex-basis: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    section.page-header {
+        padding: 40px 0;
+    }
+}
